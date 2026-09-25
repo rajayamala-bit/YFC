@@ -21,7 +21,7 @@ const parser = new Parser({
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     'Accept': 'application/rss+xml, application/xml, text/xml; q=0.9, */*; q=0.8',
   },
-  timeout: 12000,
+  timeout: 10000,
   customFields: {
     item: [
       ['media:content', 'mediaContent'],
@@ -32,27 +32,32 @@ const parser = new Parser({
   },
 });
 
-// Feeds covering specific distinct themes: Biblical, Archaeological, Defense/War, and Faith
+// Targeted feeds for Biblical Archaeology, Christian/Prophetic Worldview, and Middle East Defense
 const RSS_FEEDS = [
   {
-    url: 'https://israel365news.com/feed/',
-    defaultCategory: 'BIBLICAL & PROPHECY',
-    source: 'Israel365 News'
+    url: 'https://www.biblicalarchaeology.org/feed/',
+    category: 'ARCHAEOLOGY & HISTORY',
+    source: 'Biblical Archaeology Review',
   },
   {
-    url: 'https://www.biblicalarchaeology.org/feed/',
-    defaultCategory: 'ARCHAEOLOGY & HISTORY',
-    source: 'Biblical Archaeology'
+    url: 'https://israel365news.com/feed/',
+    category: 'BIBLICAL PROPHECY',
+    source: 'Israel365 News',
   },
   {
     url: 'https://www.jpost.com/rss/rssfeedsisraelnews.aspx',
-    defaultCategory: 'WAR & REGION UPDATES',
-    source: 'Jerusalem Post'
+    category: 'WAR & REGION UPDATES',
+    source: 'Jerusalem Post',
+  },
+  {
+    url: 'https://www.jpost.com/rss/rssfeedschristiannews.aspx',
+    category: 'CHRISTIAN WORLD & FAITH',
+    source: 'JPost Christian World',
   },
   {
     url: 'https://www.timesofisrael.com/feed/',
-    defaultCategory: 'ISRAEL & NATION',
-    source: 'Times of Israel'
+    category: 'ISRAEL & NATION',
+    source: 'Times of Israel',
   },
 ];
 
@@ -65,68 +70,75 @@ function extractImageUrl(item) {
   return match ? match[1] : null;
 }
 
-function resolveCategory(item, defaultCat) {
-  if (Array.isArray(item.categories) && item.categories.length > 0) {
-    const rawCat = item.categories[0];
-    const catText = typeof rawCat === 'string' ? rawCat : (rawCat._ || rawCat.$ || '');
-    if (catText && catText.trim().length > 2) {
-      return catText.toUpperCase().trim();
-    }
-  }
-  return defaultCat;
-}
-
 async function run() {
   try {
     let collectedItems = [];
 
-    // Collect 2 items from each distinct feed to ensure category variety
+    // Pull 2 candidate items per feed so we have an abundant buffer of 10 items
     for (const feed of RSS_FEEDS) {
       try {
-        console.log(`Fetching: ${feed.source} (${feed.url})`);
+        console.log(`Querying: ${feed.source}`);
         const feedData = await parser.parseURL(feed.url);
-        console.log(`-> Found ${feedData.items.length} items from ${feed.source}`);
-
+        
         for (const item of feedData.items.slice(0, 2)) {
           collectedItems.push({
-            title: item.title?.trim() || '',
+            title: (item.title || '').trim(),
             link: item.link || '',
             snippet: (item.contentSnippet || item.summary || '').replace(/<[^>]*>?/gm, '').slice(0, 220).trim(),
             fullContent: (item.contentEncoded || item.content || item.contentSnippet || '').trim(),
             pubDate: item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : 'Today',
             rawImage: extractImageUrl(item),
-            category: resolveCategory(item, feed.defaultCategory),
+            category: feed.category,
             sourceName: feed.source,
           });
         }
       } catch (err) {
-        console.warn(`Warning: Failed to parse feed ${feed.url}: ${err.message}`);
+        console.warn(`Feed ${feed.source} skipped: ${err.message}`);
       }
     }
 
-    if (collectedItems.length === 0) {
-      console.log('No new items retrieved. Exiting without updating Firestore.');
+    // Deduplicate and ensure distinct categories in the top selection
+    const uniqueCategoryMap = new Map();
+    const finalSelected = [];
+
+    // First pass: pick 1 article per category to guarantee broad variety
+    for (const item of collectedItems) {
+      if (!uniqueCategoryMap.has(item.category) && finalSelected.length < 5) {
+        uniqueCategoryMap.set(item.category, true);
+        finalSelected.push(item);
+      }
+    }
+
+    // Second pass: fill up to 5 if needed
+    for (const item of collectedItems) {
+      if (finalSelected.length >= 5) break;
+      if (!finalSelected.some(existing => existing.title === item.title)) {
+        finalSelected.push(item);
+      }
+    }
+
+    if (finalSelected.length === 0) {
+      console.log('No articles found. Skipping Firestore sync.');
       return;
     }
 
-    // Pick top 5 items ensuring a healthy blend of categories
-    const top5 = collectedItems.slice(0, 5);
+    console.log(`Processing top ${finalSelected.length} cards...`);
     const processedItems = [];
 
-    for (let i = 0; i < top5.length; i++) {
-      const item = top5[i];
+    for (let i = 0; i < finalSelected.length; i++) {
+      const item = finalSelected[i];
       let secureUrl = 'assets/images/carousel/jerusalem.jpg';
 
       if (item.rawImage) {
         try {
-          console.log(`Uploading image [${i + 1}/5] for: "${item.title.slice(0, 30)}..."`);
+          console.log(`[${i + 1}/${finalSelected.length}] Uploading image: ${item.title.slice(0, 30)}...`);
           const uploadRes = await cloudinary.uploader.upload(item.rawImage, {
             folder: 'whats_new_news',
             transformation: [{ width: 800, height: 450, crop: 'fill', quality: 'auto', fetch_format: 'auto' }],
           });
           secureUrl = uploadRes.secure_url;
         } catch (uploadErr) {
-          console.warn(`Cloudinary upload failed for item ${i + 1}, using fallback: ${uploadErr.message}`);
+          console.warn(`Cloudinary upload fallback for item ${i + 1}: ${uploadErr.message}`);
         }
       }
 
@@ -155,10 +167,10 @@ async function run() {
     });
 
     await batch.commit();
-    console.log(`Successfully synced ${processedItems.length} diverse articles to Firestore 'whats_new'.`);
+    console.log(`Successfully published ${processedItems.length} diverse items to Firestore.`);
     process.exit(0);
   } catch (error) {
-    console.error('Fatal sync error:', error);
+    console.error('Execution error:', error);
     process.exit(1);
   }
 }
