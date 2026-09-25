@@ -1,4 +1,4 @@
-﻿const admin = require('firebase-admin');
+const admin = require('firebase-admin');
 const Parser = require('rss-parser');
 const cloudinary = require('cloudinary').v2;
 
@@ -9,12 +9,20 @@ cloudinary.config({
 });
 
 const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY);
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
+if (!admin.apps.length) {
+  admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+  });
+}
 const db = admin.firestore();
 
+// Add browser headers so CDNs do not block requests with 403
 const parser = new Parser({
+  headers: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'Accept': 'application/rss+xml, application/xml, text/xml; q=0.9, */*; q=0.8',
+  },
+  timeout: 10000,
   customFields: {
     item: [
       ['media:content', 'mediaContent'],
@@ -24,9 +32,11 @@ const parser = new Parser({
   },
 });
 
+// Robust, high-uptime feeds
 const RSS_FEEDS = [
-  { url: 'https://allisrael.com/rss', category: 'ISRAEL & PROPHECY', source: 'All Israel News' },
-  { url: 'https://israel365news.com/feed/', category: 'JERUSALEM & FAITH', source: 'Israel365' },
+  { url: 'https://www.jpost.com/rss/rssfeedsisraelnews.aspx', category: 'ISRAEL & NATION', source: 'Jerusalem Post' },
+  { url: 'https://www.timesofisrael.com/feed/', category: 'JERUSALEM & FAITH', source: 'Times of Israel' },
+  { url: 'https://israel365news.com/feed/', category: 'PROPHECY & FAITH', source: 'Israel365' },
 ];
 
 function extractImageUrl(item) {
@@ -44,12 +54,15 @@ async function run() {
 
     for (const feed of RSS_FEEDS) {
       try {
+        console.log(`Fetching feed: ${feed.url}`);
         const feedData = await parser.parseURL(feed.url);
+        console.log(`-> Received ${feedData.items.length} items from ${feed.source}`);
+
         for (const item of feedData.items.slice(0, 3)) {
           collectedItems.push({
             title: item.title?.trim() || '',
             link: item.link || '',
-            snippet: (item.contentSnippet || item.summary || '').slice(0, 200).trim(),
+            snippet: (item.contentSnippet || item.summary || '').slice(0, 220).trim(),
             fullContent: (item.contentEncoded || item.content || item.contentSnippet || '').trim(),
             pubDate: item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : 'Today',
             rawImage: extractImageUrl(item),
@@ -58,12 +71,12 @@ async function run() {
           });
         }
       } catch (err) {
-        console.warn(`Warning: Failed to parse feed ${feed.url}:`, err.message);
+        console.warn(`Warning: Failed to parse feed ${feed.url}: ${err.message}`);
       }
     }
 
     if (collectedItems.length === 0) {
-      console.log('No new items retrieved. Exiting without clearing Firestore.');
+      console.log('No new items retrieved. Exiting without updating Firestore.');
       return;
     }
 
@@ -76,13 +89,14 @@ async function run() {
 
       if (item.rawImage) {
         try {
+          console.log(`Uploading cover image to Cloudinary for: "${item.title.slice(0, 30)}..."`);
           const uploadRes = await cloudinary.uploader.upload(item.rawImage, {
             folder: 'whats_new_news',
             transformation: [{ width: 800, height: 450, crop: 'fill', quality: 'auto', fetch_format: 'auto' }],
           });
           secureUrl = uploadRes.secure_url;
         } catch (uploadErr) {
-          console.warn(`Cloudinary upload failed for item ${i + 1}, using fallback:`, uploadErr.message);
+          console.warn(`Cloudinary upload failed for item ${i + 1}, using fallback: ${uploadErr.message}`);
           secureUrl = 'assets/images/carousel/jerusalem.jpg';
         }
       } else {
@@ -115,6 +129,7 @@ async function run() {
 
     await batch.commit();
     console.log(`Successfully synced ${processedItems.length} live articles to Firestore 'whats_new'.`);
+    process.exit(0);
   } catch (error) {
     console.error('Fatal sync error:', error);
     process.exit(1);
