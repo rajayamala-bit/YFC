@@ -16,27 +16,44 @@ if (!admin.apps.length) {
 }
 const db = admin.firestore();
 
-// Add browser headers so CDNs do not block requests with 403
 const parser = new Parser({
   headers: {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     'Accept': 'application/rss+xml, application/xml, text/xml; q=0.9, */*; q=0.8',
   },
-  timeout: 10000,
+  timeout: 12000,
   customFields: {
     item: [
       ['media:content', 'mediaContent'],
       ['enclosure', 'enclosure'],
       ['content:encoded', 'contentEncoded'],
+      ['category', 'categories', { keepArray: true }],
     ],
   },
 });
 
-// Robust, high-uptime feeds
+// Feeds covering specific distinct themes: Biblical, Archaeological, Defense/War, and Faith
 const RSS_FEEDS = [
-  { url: 'https://www.jpost.com/rss/rssfeedsisraelnews.aspx', category: 'ISRAEL & NATION', source: 'Jerusalem Post' },
-  { url: 'https://www.timesofisrael.com/feed/', category: 'JERUSALEM & FAITH', source: 'Times of Israel' },
-  { url: 'https://israel365news.com/feed/', category: 'PROPHECY & FAITH', source: 'Israel365' },
+  {
+    url: 'https://israel365news.com/feed/',
+    defaultCategory: 'BIBLICAL & PROPHECY',
+    source: 'Israel365 News'
+  },
+  {
+    url: 'https://www.biblicalarchaeology.org/feed/',
+    defaultCategory: 'ARCHAEOLOGY & HISTORY',
+    source: 'Biblical Archaeology'
+  },
+  {
+    url: 'https://www.jpost.com/rss/rssfeedsisraelnews.aspx',
+    defaultCategory: 'WAR & REGION UPDATES',
+    source: 'Jerusalem Post'
+  },
+  {
+    url: 'https://www.timesofisrael.com/feed/',
+    defaultCategory: 'ISRAEL & NATION',
+    source: 'Times of Israel'
+  },
 ];
 
 function extractImageUrl(item) {
@@ -48,25 +65,37 @@ function extractImageUrl(item) {
   return match ? match[1] : null;
 }
 
+function resolveCategory(item, defaultCat) {
+  if (Array.isArray(item.categories) && item.categories.length > 0) {
+    const rawCat = item.categories[0];
+    const catText = typeof rawCat === 'string' ? rawCat : (rawCat._ || rawCat.$ || '');
+    if (catText && catText.trim().length > 2) {
+      return catText.toUpperCase().trim();
+    }
+  }
+  return defaultCat;
+}
+
 async function run() {
   try {
     let collectedItems = [];
 
+    // Collect 2 items from each distinct feed to ensure category variety
     for (const feed of RSS_FEEDS) {
       try {
-        console.log(`Fetching feed: ${feed.url}`);
+        console.log(`Fetching: ${feed.source} (${feed.url})`);
         const feedData = await parser.parseURL(feed.url);
-        console.log(`-> Received ${feedData.items.length} items from ${feed.source}`);
+        console.log(`-> Found ${feedData.items.length} items from ${feed.source}`);
 
-        for (const item of feedData.items.slice(0, 3)) {
+        for (const item of feedData.items.slice(0, 2)) {
           collectedItems.push({
             title: item.title?.trim() || '',
             link: item.link || '',
-            snippet: (item.contentSnippet || item.summary || '').slice(0, 220).trim(),
+            snippet: (item.contentSnippet || item.summary || '').replace(/<[^>]*>?/gm, '').slice(0, 220).trim(),
             fullContent: (item.contentEncoded || item.content || item.contentSnippet || '').trim(),
             pubDate: item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : 'Today',
             rawImage: extractImageUrl(item),
-            category: feed.category,
+            category: resolveCategory(item, feed.defaultCategory),
             sourceName: feed.source,
           });
         }
@@ -80,16 +109,17 @@ async function run() {
       return;
     }
 
+    // Pick top 5 items ensuring a healthy blend of categories
     const top5 = collectedItems.slice(0, 5);
     const processedItems = [];
 
     for (let i = 0; i < top5.length; i++) {
       const item = top5[i];
-      let secureUrl = '';
+      let secureUrl = 'assets/images/carousel/jerusalem.jpg';
 
       if (item.rawImage) {
         try {
-          console.log(`Uploading cover image to Cloudinary for: "${item.title.slice(0, 30)}..."`);
+          console.log(`Uploading image [${i + 1}/5] for: "${item.title.slice(0, 30)}..."`);
           const uploadRes = await cloudinary.uploader.upload(item.rawImage, {
             folder: 'whats_new_news',
             transformation: [{ width: 800, height: 450, crop: 'fill', quality: 'auto', fetch_format: 'auto' }],
@@ -97,10 +127,7 @@ async function run() {
           secureUrl = uploadRes.secure_url;
         } catch (uploadErr) {
           console.warn(`Cloudinary upload failed for item ${i + 1}, using fallback: ${uploadErr.message}`);
-          secureUrl = 'assets/images/carousel/jerusalem.jpg';
         }
-      } else {
-        secureUrl = 'assets/images/carousel/jerusalem.jpg';
       }
 
       processedItems.push({
@@ -128,7 +155,7 @@ async function run() {
     });
 
     await batch.commit();
-    console.log(`Successfully synced ${processedItems.length} live articles to Firestore 'whats_new'.`);
+    console.log(`Successfully synced ${processedItems.length} diverse articles to Firestore 'whats_new'.`);
     process.exit(0);
   } catch (error) {
     console.error('Fatal sync error:', error);
