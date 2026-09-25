@@ -1,0 +1,561 @@
+{
+  "book_id": 60,
+  "total_chapters": 5,
+  "chapters": [
+    {
+      "chapter_num": 1,
+      "total_verses": 25,
+      "verses": [
+        {
+          "verse_num": 1,
+          "text_te": "యేసుక్రీస్తు అపొస్తలుడైన పేతురు, తండ్రియైన దేవుని భవిష్యద్‌ జ్ఞానమునుబట్టి,",
+          "text_en": "Peter, an apostle of Jesus Christ, to the strangers scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia,"
+        },
+        {
+          "verse_num": 2,
+          "text_te": "ఆత్మవలని పరిశుద్ధత పొందినవారై విధేయులగుటకును, యేసుక్రీస్తు రక్తమువలన ప్రోక్షింపబడుటకును ఏర్పరచబడినవారికి, అనగా పొంతు, గలతీయ, కప్పదొకియ, ఆసియ, బితునియ అను దేశముల యందు చెదరిన వారిలో చేరిన యాత్రికులకు శుభమని చెప్పి వ్రాయునది. మీకు కృపయు సమాధానమును విస్తరిల్లునుగాక.",
+          "text_en": "Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace unto you, and peace, be multiplied."
+        },
+        {
+          "verse_num": 3,
+          "text_te": "మన ప్రభువగు యేసుక్రీస్తు తండ్రియైన దేవుడు స్తుతింపబడునుగాక.",
+          "text_en": "Blessed be the God and Father of our Lord Jesus Christ, which according to his abundant mercy hath begotten us again unto a lively hope by the resurrection of Jesus Christ from the dead,"
+        },
+        {
+          "verse_num": 4,
+          "text_te": "మృతులలోనుండి యేసుక్రీస్తు తిరిగి లేచుటవలన జీవముతో కూడిన నిరీక్షణ మనకు కలుగునట్లు, అనగా అక్షయమైనదియు, నిర్మలమైనదియు, వాడ బారనిదియునైన స్వాస్యము మనకు కలుగునట్లు, ఆయన తన విశేష కనికరముచొప్పున మనలను మరల జన్మింప జేసెను.",
+          "text_en": "To an inheritance incorruptible, and undefiled, and that fadeth not away, reserved in heaven for you,"
+        },
+        {
+          "verse_num": 5,
+          "text_te": "కడవరి కాలమందు బయలుపరచబడుటకు సిద్ధ ముగానున్న రక్షణ మీకు కలుగునట్లు, విశ్వాసముద్వారా దేవుని శక్తిచేత కాపాడబడు మీకొరకు, ఆ స్వాస్థ్యము పరలోకమందు భద్రపరచబడియున్నది.",
+          "text_en": "Who are kept by the power of God through faith unto salvation ready to be revealed in the last time."
+        },
+        {
+          "verse_num": 6,
+          "text_te": "ఇందువలన మీరు మిక్కిలి ఆనందించుచున్నారు గాని అవసరమునుబట్టి నానా విధములైన శోధనలచేత, ప్రస్తుతమున కొంచెము కాలము మీకు దుఃఖము కలుగుచున్నది.",
+          "text_en": "Wherein ye greatly rejoice, though now for a season, if need be, ye are in heaviness through manifold temptations:"
+        },
+        {
+          "verse_num": 7,
+          "text_te": "నశించిపోవు సువర్ణము అగ్నిపరీక్షవలన శుద్ధపరచబడుచున్నది గదా? దానికంటె అమూల్యమైన మీ విశ్వాసము ఈ శోధనలచేత పరీక్షకు నిలిచినదై, యేసుక్రీస్తు ప్రత్యక్షమైనప్పుడు మీకు మెప్పును మహిమయు ఘనతయు కలుగుటకు కారణ మగును.",
+          "text_en": "That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ:"
+        },
+        {
+          "verse_num": 8,
+          "text_te": "మీరాయనను చూడకపోయినను ఆయనను ప్రేమించుచున్నారు; ఇప్పుడు ఆయనను కన్నులార చూడకయే విశ్వసించుచు, మీ విశ్వాసమునకు ఫలమును,",
+          "text_en": "Whom having not seen, ye love; in whom, though now ye see him not, yet believing, ye rejoice with joy unspeakable and full of glory:"
+        },
+        {
+          "verse_num": 9,
+          "text_te": "అనగా ఆత్మరక్షణను పొందుచు,చెప్పనశక్యమును మహిమా యుక్తమునైన సంతోషముగలవారై ఆనందించుచున్నారు.",
+          "text_en": "Receiving the end of your faith, even the salvation of your souls."
+        },
+        {
+          "verse_num": 10,
+          "text_te": "మీకు కలుగు ఆ కృపనుగూర్చి ప్రవచించిన ప్రవక్తలు ఈ రక్షణనుగూర్చి పరిశీలించుచు, తమయందున్న క్రీస్తు ఆత్మ క్రీస్తు విషయమైన శ్రమలనుగూర్చియు,",
+          "text_en": "Of which salvation the prophets have enquired and searched diligently, who prophesied of the grace that should come unto you:"
+        },
+        {
+          "verse_num": 11,
+          "text_te": "వాటి తరువాత కలుగబోవు మహిమలనుగూర్చియు ముందుగా సాక్ష్యమిచ్చునపుడు, ఆ ఆత్మ, యే కాలమును ఎట్టి కాల మును సూచించుచువచ్చెనో దానిని విచారించి పరిశో ధించిరి.",
+          "text_en": "Searching what, or what manner of time the Spirit of Christ which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow."
+        },
+        {
+          "verse_num": 12,
+          "text_te": "పరలోకమునుండి పంపబడిన పరిశుద్ధాత్మవలన మీకు సువార్త ప్రకటించినవారిద్వారా మీకిప్పుడు తెలుపబడిన యీ సంగతులవిషయమై, తమకొరకు కాదు గాని మీకొరకే తాము పరిచర్య చేసిరను సంగతి వారికి బయలు పరచబడెను; దేవదూతలు ఈ కార్యములను తొంగిచూడ గోరుచున్నారు.",
+          "text_en": "Unto whom it was revealed, that not unto themselves, but unto us they did minister the things, which are now reported unto you by them that have preached the gospel unto you with the Holy Ghost sent down from heaven; which things the angels desire to look into."
+        },
+        {
+          "verse_num": 13,
+          "text_te": "కాబట్టి మీ మనస్సు అను నడుముకట్టుకొని నిబ్బర మైన బుద్ధిగలవారై, యేసుక్రీస్తు ప్రత్యక్షమైనప్పుడు మీకు తేబడు కృపవిషయమై సంపూర్ణ నిరీక్షణ కలిగియుండుడి.",
+          "text_en": "Wherefore gird up the loins of your mind, be sober, and hope to the end for the grace that is to be brought unto you at the revelation of Jesus Christ;"
+        },
+        {
+          "verse_num": 14,
+          "text_te": "నేను పరిశుద్ధుడనై యున్నాను గనుక మీరును పరిశుద్ధులై యుండుడని వ్రాయబడియున్నది.",
+          "text_en": "As obedient children, not fashioning yourselves according to the former lusts in your ignorance:"
+        },
+        {
+          "verse_num": 15,
+          "text_te": "కాగా మీరు విధేయులగు పిల్లలై, మీ పూర్వపు అజ్ఞానదశలో మీ కుండిన ఆశల ననుసరించి ప్రవర్తింపక,",
+          "text_en": "But as he which hath called you is holy, so be ye holy in all manner of conversation;"
+        },
+        {
+          "verse_num": 16,
+          "text_te": "మిమ్మును పిలిచిన వాడు పరిశుద్ధుడైయున్న ప్రకారము మీరును సమస్త ప్రవర్తనయందు పరిశుద్ధులైయుండుడి.",
+          "text_en": "Because it is written, Be ye holy; for I am holy."
+        },
+        {
+          "verse_num": 17,
+          "text_te": "పక్షపాతము లేకుండ క్రియలనుబట్టి ప్రతివానిని తీర్పుతీర్చువాడు తండ్రి అని మీరాయనకు ప్రార్థనచేయుచున్నారు గనుక మీరు పరదేశులై యున్నంతకాలము భయముతో గడుపుడి.",
+          "text_en": "And if ye call on the Father, who without respect of persons judgeth according to every man’s work, pass the time of your sojourning here in fear:"
+        },
+        {
+          "verse_num": 18,
+          "text_te": "పితృపారంపర్యమైన మీ వ్యర్థప్రవర్తనను విడిచిపెట్టునట్లుగా వెండి బంగారములవంటి క్షయ వస్తువులచేత మీరు విమోచింపబడలేదుగాని",
+          "text_en": "Forasmuch as ye know that ye were not redeemed with corruptible things, as silver and gold, from your vain conversation received by tradition from your fathers;"
+        },
+        {
+          "verse_num": 19,
+          "text_te": "అమూల్యమైన రక్తముచేత, అనగా నిర్దోషమును నిష్కళంకమునగు గొఱ్ఱపిల్లవంటి క్రీస్తు రక్తముచేత, విమోచింపబడితిరని మీరెరుగుదురు గదా",
+          "text_en": "But with the precious blood of Christ, as of a lamb without blemish and without spot:"
+        },
+        {
+          "verse_num": 20,
+          "text_te": "ఆయన జగత్తు పునాది వేయబడక మునుపే నియ మింపబడెను గాని తన్ను మృతులలోనుండి లేపి తనకు మహిమనిచ్చిన దేవునియెడల తన ద్వారా విశ్వాసులైన మీ నిమిత్తము, కడవరి కాలములయందు ఆయన ప్రత్యక్ష పరచబడెను. కాగా మీ విశ్వాసమును నిరీక్షణయు దేవుని యందు ఉంచబడియున్నవి.",
+          "text_en": "Who verily was foreordained before the foundation of the world, but was manifest in these last times for you,"
+        },
+        {
+          "verse_num": 21,
+          "text_te": "మీరు క్షయబీజమునుండి కాక, శాశ్వతమగు జీవముగల దేవునివాక్యమూలముగా అక్షయబీజమునుండి పుట్టింపబడినవారు గనుక నిష్కపటమైన సహోదరప్రేమ కలుగునట్లు,",
+          "text_en": "Who by him do believe in God, that raised him up from the dead, and gave him glory; that your faith and hope might be in God."
+        },
+        {
+          "verse_num": 22,
+          "text_te": "మీరు సత్యమునకు విధేయులవుటచేత మీ మనస్సులను పవిత్రపరచుకొనిన వారైయుండి, యొకనినొకడు హృదయపూర్వకముగాను మిక్కటము గాను ప్రేమించుడి.",
+          "text_en": "Seeing ye have purified your souls in obeying the truth through the Spirit unto unfeigned love of the brethren, see that ye love one another with a pure heart fervently:"
+        },
+        {
+          "verse_num": 23,
+          "text_te": "ఏలయనగా సర్వశరీరులు గడ్డినిపోలినవారు, వారి అంద మంతయు గడ్డిపువ్వువలె ఉన్నది;",
+          "text_en": "Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever."
+        },
+        {
+          "verse_num": 24,
+          "text_te": "గడ్డి ఎండును దాని పువ్వును రాలును, అయితే ప్రభువు వాక్యము ఎల్లప్పుడును నిలుచును.",
+          "text_en": "For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away:"
+        },
+        {
+          "verse_num": 25,
+          "text_te": "మీకు ప్రకటింపబడిన సువార్త యీ వాక్యమే.",
+          "text_en": "But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you."
+        }
+      ]
+    },
+    {
+      "chapter_num": 2,
+      "total_verses": 25,
+      "verses": [
+        {
+          "verse_num": 1,
+          "text_te": "ప్రభువు దయాళుడని మీరు రుచిచూచియున్న యెడల",
+          "text_en": "Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, and all evil speakings,"
+        },
+        {
+          "verse_num": 2,
+          "text_te": "సమస్తమైన దుష్టత్వమును, సమస్తమైన కపటమును, వేషధారణను, అసూయను, సమస్త దూషణ మాటలను మాని,",
+          "text_en": "As newborn babes, desire the sincere milk of the word, that ye may grow thereby:"
+        },
+        {
+          "verse_num": 3,
+          "text_te": "క్రొత్తగా జన్మించిన శిశువులను పోలినవారై, నిర్మల మైన వాక్యమను పాలవలన రక్షణ విషయములో ఎదుగు నిమిత్తము, ఆ పాలను అపేక్షించుడి.",
+          "text_en": "If so be ye have tasted that the Lord is gracious."
+        },
+        {
+          "verse_num": 4,
+          "text_te": "మనుష్యులచేత విసర్జింపబడినను, దేవుని దృష్టికి ఏర్పరచబడినదియు అమూల్యమును సజీవమునైన రాయియగు ప్రభువునొద్దకు వచ్చిన వారై,",
+          "text_en": "To whom coming, as unto a living stone, disallowed indeed of men, but chosen of God, and precious,"
+        },
+        {
+          "verse_num": 5,
+          "text_te": "యేసుక్రీస్తుద్వారా దేవునికి అనుకూలము లగు ఆత్మసంబంధమైన బలులనర్పించుటకు పరిశుద్ధయాజ కులుగా ఉండునట్లు, మీరును సజీవమైన రాళ్లవలెనుండి ఆత్మ సంబంధమైన మందిరముగా కట్టబడుచున్నారు.",
+          "text_en": "Ye also, as lively stones, are built up a spiritual house, an holy priesthood, to offer up spiritual sacrifices, acceptable to God by Jesus Christ."
+        },
+        {
+          "verse_num": 6,
+          "text_te": "ఏలయనగా ఇదిగో నేను ముఖ్యమును ఏర్పరచబడినదియు అమూల్యమునగు మూలరాతిని సీయోనులొ స్థాపించుచున్నాను; ఆయనయందు విశ్వాసముంచు వాడు ఏమాత్రమును సిగ్గుపడడు అను మాట లేఖనమందు వ్రాయబడియున్నది.",
+          "text_en": "Wherefore also it is contained in the scripture, Behold, I lay in Sion a chief corner stone, elect, precious: and he that believeth on him shall not be confounded."
+        },
+        {
+          "verse_num": 7,
+          "text_te": "విశ్వ సించుచున్న మీకు, ఆయన అమూల్యమైనవాడు; విశ్వ సింపనివారికైతే ఇల్లు కట్టువారు ఏ రాతిని నిషేధించిరో అదే మూలకు తలరాయి ఆయెను. మరియు అది అడ్డురాయియు అడ్డుబండయు ఆయెను.",
+          "text_en": "Unto you therefore which believe he is precious: but unto them which be disobedient, the stone which the builders disallowed, the same is made the head of the corner,"
+        },
+        {
+          "verse_num": 8,
+          "text_te": "కట్టువారు వాక్యమున కవిధేయులై తొట్రిల్లుచున్నారు, దానికే వారు నియమింపబడిరి.",
+          "text_en": "And a stone of stumbling, and a rock of offence, even to them which stumble at the word, being disobedient: whereunto also they were appointed."
+        },
+        {
+          "verse_num": 9,
+          "text_te": "అయితే మీరు చీకటిలోనుండి ఆశ్చర్యకరమైన తన వెలుగులోనికి మిమ్మును పిలిచిన వాని గుణాతిశయములను ప్రచురముచేయు నిమిత్తము, ఏర్పరచబడిన వంశమును, రాజులైన యాజక సమూహమును, పరిశుద్ధ జనమును, దేవుని సొత్తయిన ప్రజలునై యున్నారు.",
+          "text_en": "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light:"
+        },
+        {
+          "verse_num": 10,
+          "text_te": "ఒకప్పుడు ప్రజగా ఉండక యిప్పుడు దేవుని ప్రజయైతిరి; ఒకప్పుడు కనికరింపబడక యిప్పుడు కనికరింపబడినవారైతిరి.",
+          "text_en": "Which in time past were not a people, but are now the people of God: which had not obtained mercy, but now have obtained mercy."
+        },
+        {
+          "verse_num": 11,
+          "text_te": "ప్రియులారా, మీరు పరదేశులును యాత్రికులునై యున్నారు గనుక ఆత్మకు విరోధముగా పోరాడు శరీరాశ లను విసర్జించి,",
+          "text_en": "Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul;"
+        },
+        {
+          "verse_num": 12,
+          "text_te": "అన్యజనులు మిమ్మును ఏ విషయములో దుర్మార్గులని దూషింతురో, ఆ విషయములో వారు మీ సత్‌క్రియలను చూచి, వాటినిబట్టి దర్శనదినమున దేవుని మహిమపరచునట్లు, వారి మధ్యను మం",
+          "text_en": "Having your conversation honest among the Gentiles: that, whereas they speak against you as evildoers, they may by your good works, which they shall behold, glorify God in the day of visitation."
+        },
+        {
+          "verse_num": 13,
+          "text_te": "మనుష్యులు నియమించు ప్రతి కట్టడకును ప్రభువు నిమిత్తమై లోబడియుండుడి.",
+          "text_en": "Submit yourselves to every ordinance of man for the Lord’s sake: whether it be to the king, as supreme;"
+        },
+        {
+          "verse_num": 14,
+          "text_te": "రాజు అందరికిని అధిపతి యనియు, నాయకులు దుర్మార్గులకు ప్రతిదండన చేయుట కును సన్మార్గులకు మెప్పు కలుగుటకును రాజువలన పంప బడినవారనియు వారికి లోబడియుండుడి.",
+          "text_en": "Or unto governors, as unto them that are sent by him for the punishment of evildoers, and for the praise of them that do well."
+        },
+        {
+          "verse_num": 15,
+          "text_te": "ఏలయనగా మీరిట్లు యుక్తప్రవర్తన గలవారై, అజ్ఞానముగా మాటలాడు మూర్ఖుల నోరు మూయుట దేవుని చిత్తము.",
+          "text_en": "For so is the will of God, that with well doing ye may put to silence the ignorance of foolish men:"
+        },
+        {
+          "verse_num": 16,
+          "text_te": "స్వతంత్రులై యుండియు దుష్టత్వమును కప్పి పెట్టుటకు మీ స్వాతంత్ర్య మును వినియోగపరచక, దేవునికి దాసులమని లోబడి యుండుడి.",
+          "text_en": "As free, and not using your liberty for a cloke of maliciousness, but as the servants of God."
+        },
+        {
+          "verse_num": 17,
+          "text_te": "అందరిని సన్మానించుడి, సహోదరులను ప్రేమించుడి, దేవునికి భయపడుడి, రాజును సన్మానించుడి.",
+          "text_en": "Honour all men. Love the brotherhood. Fear God. Honour the king."
+        },
+        {
+          "verse_num": 18,
+          "text_te": "పనివారలారా, మంచివారును సాత్వికులునైనవారికి మాత్రము కాక ముష్కరులైన మీ యజమానులకును పూర్ణభయముతో లోబడియుండుడి.",
+          "text_en": "Servants, be subject to your masters with all fear; not only to the good and gentle, but also to the froward."
+        },
+        {
+          "verse_num": 19,
+          "text_te": "ఎవడైనను అన్యాయ ముగా శ్రమపొందుచు, దేవునిగూర్చిన మనస్సాక్షికలిగి, దుఃఖము సహించినయెడల అది హితమగును.",
+          "text_en": "For this is thankworthy, if a man for conscience toward God endure grief, suffering wrongfully."
+        },
+        {
+          "verse_num": 20,
+          "text_te": "తప్పిద మునకై దెబ్బలు తినినప్పుడు మీరు సహించినయెడల మీకేమి ఘనము? మేలుచేసి బాధపడునప్పుడు మీరు సహించినయెడల అది దేవునికి హితమగును;",
+          "text_en": "For what glory is it, if, when ye be buffeted for your faults, ye shall take it patiently? but if, when ye do well, and suffer for it, ye take it patiently, this is acceptable with God."
+        },
+        {
+          "verse_num": 21,
+          "text_te": "ఇందుకు మీరు పిలువబడితిరి.క్రీస్తుకూడ మీకొరకు బాధపడి, మీరు తన అడుగుజాడలయందు నడుచుకొనునట్లు మీకు మాదిరి యుంచి పోయెను.",
+          "text_en": "For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps:"
+        },
+        {
+          "verse_num": 22,
+          "text_te": "ఆయన పాపము చేయలేదు; ఆయన నోటను ఏ కపటమును కనబడలేదు.",
+          "text_en": "Who did no sin, neither was guile found in his mouth:"
+        },
+        {
+          "verse_num": 23,
+          "text_te": "ఆయన దూషింప బడియు బదులు దూషింపలేదు; ఆయన శ్రమపెట్టబడియు బెదిరింపక, న్యాయముగా తీర్పు తీర్చు దేవునికి తన్ను తాను అప్పగించుకొనెను.",
+          "text_en": "Who, when he was reviled, reviled not again; when he suffered, he threatened not; but committed himself to him that judgeth righteously:"
+        },
+        {
+          "verse_num": 24,
+          "text_te": "మనము పాపముల విషయమై చనిపోయి, నీతివిషయమై జీవించునట్లు, ఆయన తానే తన శరీరమందు మన పాపములను మ్రానుమీద మోసి కొనెను. ఆయన పొందిన గాయములచేత మీరు స్వస్థత నొందితిరి.",
+          "text_en": "Who his own self bare our sins in his own body on the tree, that we, being dead to sins, should live unto righteousness: by whose stripes ye were healed."
+        },
+        {
+          "verse_num": 25,
+          "text_te": "మీరు గొఱ్ఱలవలె దారితప్పిపోతిరి గాని యిప్పుడు మీ ఆత్మల కాపరియు అధ్యక్షుడునైన ఆయన వైపునకు మళ్లియున్నారు.",
+          "text_en": "For ye were as sheep going astray; but are now returned unto the Shepherd and Bishop of your souls."
+        }
+      ]
+    },
+    {
+      "chapter_num": 3,
+      "total_verses": 22,
+      "verses": [
+        {
+          "verse_num": 1,
+          "text_te": "అటువలె స్త్రీలారా, మీరు మీ స్వపురుషులకు లోబడియుండుడి;",
+          "text_en": "Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word, they also may without the word be won by the conversation of the wives;"
+        },
+        {
+          "verse_num": 2,
+          "text_te": "అందువలన వారిలో ఎవరైనను వాక్య మునకు అవిధేయులైతే, వారు భయముతోకూడిన మీ పవిత్రప్రవర్తన చూచి, వాక్యము లేకుండనే తమ భార్యల నడవడివలన రాబట్టబడవచ్చును.",
+          "text_en": "While they behold your chaste conversation coupled with fear."
+        },
+        {
+          "verse_num": 3,
+          "text_te": "జడలు అల్లుకొనుటయు, బంగారునగలు పెట్టుకొనుటయు, వస్త్రములు ధరించు కొనుటయునను వెలుపటి అలంకారము మీకు అలంకార ముగా ఉండక,",
+          "text_en": "Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel;"
+        },
+        {
+          "verse_num": 4,
+          "text_te": "సాధువైనట్టియు, మృదువైనట్టియునైన గుణమను అక్షయాలంకారముగల మీ హృదయపు అంత రంగ స్వభావము మీకు అలంకారముగా ఉండవలెను; అది దేవుని దృష్టికి మిగుల విలువగలది.",
+          "text_en": "But let it be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price."
+        },
+        {
+          "verse_num": 5,
+          "text_te": "అటువలె పూర్వము దేవుని ఆశ్రయించిన పరిశుద్ధ స్త్రీలును తమ స్వపురుషులకు లోబడియుండుటచేత తమ్మును తాము అలంకరించుకొనిరి.",
+          "text_en": "For after this manner in the old time the holy women also, who trusted in God, adorned themselves, being in subjection unto their own husbands:"
+        },
+        {
+          "verse_num": 6,
+          "text_te": "ఆ ప్రకారము శారా అబ్రాహామును యజమానుడని పిలుచుచు అతనికి లోబడి యుండెను. మీరును యోగ్యముగా నడుచుకొనుచు, ఏ భయమునకు బెదరకయున్నయెడల ఆమెకు పిల్లలగుదురు.",
+          "text_en": "Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement."
+        },
+        {
+          "verse_num": 7,
+          "text_te": "అటువలెనే పురుషులారా, జీవమను కృపావరములో మీ భార్యలు మీతో పాలివారైయున్నారని యెరిగి, యెక్కువ బలహీనమైన ఘటమని భార్యను సన్మానించి, మీ ప్రార్థనలకు అభ్యంతరము కలుగక",
+          "text_en": "Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered."
+        },
+        {
+          "verse_num": 8,
+          "text_te": "తుదకు మీరందరు ఏకమనస్కులై యొకరి సుఖదుఃఖ ములయందు ఒకరు పాలుపడి, సహోదరప్రేమ గలవారును, కరుణాచిత్తులును, వినయమనస్కులునై యుండుడి.",
+          "text_en": "Finally, be ye all of one mind, having compassion one of another, love as brethren, be pitiful, be courteous:"
+        },
+        {
+          "verse_num": 9,
+          "text_te": "ఆశీర్వాదమునకు వారసులవుటకు మీరు పిలువబడితిరి గనుక కీడుకు ప్రతికీడైనను దూషణకు ప్రతి దూషణయైనను చేయక దీవించుడి.",
+          "text_en": "Not rendering evil for evil, or railing for railing: but contrariwise blessing; knowing that ye are thereunto called, that ye should inherit a blessing."
+        },
+        {
+          "verse_num": 10,
+          "text_te": "జీవమును ప్రేమించి మంచి దినములు చూడగోరు వాడు చెడ్డదాని పలుకకుండ తన నాలుకను, కపటపు మాటలు చెప్పకుండ తన పెదవులను కాచుకొనవలెను.",
+          "text_en": "For he that will love life, and see good days, let him refrain his tongue from evil, and his lips that they speak no guile:"
+        },
+        {
+          "verse_num": 11,
+          "text_te": "అతడు కీడునుండి తొలగి మేలుచేయవలెను, సమాధానమును వెదకి దాని వెంటాడవలెను.",
+          "text_en": "Let him eschew evil, and do good; let him seek peace, and ensue it."
+        },
+        {
+          "verse_num": 12,
+          "text_te": "ప్రభువు కన్నులు నీతిమంతుల మీదను, ఆయన చెవులు వారి ప్రార్థనల వైపునను ఉన్నవి గాని ప్రభువు ముఖము కీడు చేయువారికి విరోధముగా ఉన్నది.",
+          "text_en": "For the eyes of the Lord are over the righteous, and his ears are open unto their prayers: but the face of the Lord is against them that do evil."
+        },
+        {
+          "verse_num": 13,
+          "text_te": "మీరు మంచి విషయములో ఆసక్తిగలవారైతే మీకు హానిచేయువాడెవడు?",
+          "text_en": "And who is he that will harm you, if ye be followers of that which is good?"
+        },
+        {
+          "verse_num": 14,
+          "text_te": "మీరొకవేళ నీతినిమిత్తము శ్రమ పడినను మీరు ధన్యులే; వారి బెదరింపునకు భయపడకుడి కలవరపడకుడి;",
+          "text_en": "But and if ye suffer for righteousness’ sake, happy are ye: and be not afraid of their terror, neither be troubled;"
+        },
+        {
+          "verse_num": 15,
+          "text_te": "నిర్మలమైన మనస్సాక్షి కలిగినవారై, మీలో ఉన్న నిరీక్షణనుగూర్చి మిమ్మును హేతువు అడుగు ప్రతివానికిని సాత్వికముతోను భయముతోను సమాధానము చెప్పుటకు ఎల్లప్పుడు సిద్ధముగా ఉండి,మీ హృదయములయందు క్రీస్తును ప్రభువుగా ప్రతిష్ఠించుడి;",
+          "text_en": "But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear:"
+        },
+        {
+          "verse_num": 16,
+          "text_te": "అప్పుడు మీరు దేనివిషయమై దుర్మార్గులని దూషింపబడు దురో దాని విషయమై క్రీస్తునందున్న మీ సత్‌ప్రవర్తన మీద అపనిందవేయువారు సిగ్గుపడుదురు.",
+          "text_en": "Having a good conscience; that, whereas they speak evil of you, as of evildoers, they may be ashamed that falsely accuse your good conversation in Christ."
+        },
+        {
+          "verse_num": 17,
+          "text_te": "దేవుని చిత్త మాలాగున్నయెడల కీడుచేసి శ్రమపడుటకంటె మేలుచేసి శ్రమపడుటయే బహు మంచిది.",
+          "text_en": "For it is better, if the will of God be so, that ye suffer for well doing, than for evil doing."
+        },
+        {
+          "verse_num": 18,
+          "text_te": "ఏలయనగా మనలను దేవునియొద్దకు తెచ్చుటకు, అనీతిమంతులకొరకు నీతిమంతు డైన క్రీస్తు శరీరవిషయములో చంపబడియు,",
+          "text_en": "For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit:"
+        },
+        {
+          "verse_num": 19,
+          "text_te": "ఆత్మవిషయ ములో బ్రదికింపబడి, పాపముల విషయములో ఒక్కసారే శ్రమపడెను.",
+          "text_en": "By which also he went and preached unto the spirits in prison;"
+        },
+        {
+          "verse_num": 20,
+          "text_te": "దేవుని దీర్ఘశాంతము ఇంక కని పెట్టుచుండినప్పుడు పూర్వము నోవహు దినములలో ఓడ సిద్ధపరచబడుచుండగా, అవిధేయులైనవారియొద్దకు, అనగా చెరలో ఉన్న ఆత్మలయొద్దకు, ఆయన ఆత్మరూపి గానే వెళ్లి వారికి ప్రకటించెను. ఆ ఓడలో కొందరు, అనగా ఎనిమిది మంది నీటిద్వారా రక్షణపొందిరి.",
+          "text_en": "Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water."
+        },
+        {
+          "verse_num": 21,
+          "text_te": "దానికి సాదృశ్యమైన బాప్తిస్మము ఇప్పుడు మిమ్మును రక్షించు చున్నది; అదేదనగా శరీరమాలిన్యము తీసివేయుట కాదు గాని యేసుక్రీస్తు పునరుత్థాన మూలముగా దేవుని విష యము నిర్మలమైన మనస్సాక్షినిచ్చు ప్రత్యుత్తరమే.",
+          "text_en": "The like figure whereunto even baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ:"
+        },
+        {
+          "verse_num": 22,
+          "text_te": "ఆయన పరలోకమునకు వెళ్లి దూతలమీదను అధికారుల మీదను శక్తులమీదను అధికారము పొందినవాడై దేవుని కుడిపార్శ్వమున ఉన్నాడు.",
+          "text_en": "Who is gone into heaven, and is on the right hand of God; angels and authorities and powers being made subject unto him."
+        }
+      ]
+    },
+    {
+      "chapter_num": 4,
+      "total_verses": 19,
+      "verses": [
+        {
+          "verse_num": 1,
+          "text_te": "క్రీస్తు శరీరమందు శ్రమపడెను గనుక మీరును అట్టి మనస్సును ఆయుధముగా ధరించుకొనుడి.",
+          "text_en": "Forasmuch then as Christ hath suffered for us in the flesh, arm yourselves likewise with the same mind: for he that hath suffered in the flesh hath ceased from sin;"
+        },
+        {
+          "verse_num": 2,
+          "text_te": "శరీర విషయములో శ్రమపడినవాడు శరీరమందు జీవించు మిగిలినకాలము ఇకమీదట మనుజాశలను అనుసరించి నడుచుకొనక, దేవుని ఇష్టానుసారముగానే నడుచుకొను నట్లు పాపముతో జోలి యిక నేమియులేక యుండును.",
+          "text_en": "That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God."
+        },
+        {
+          "verse_num": 3,
+          "text_te": "మనము పోకిరిచేష్టలు, దురాశలు, మద్య పానము, అల్లరితో కూడిన ఆటపాటలు, త్రాగుబోతుల విందులు, చేయదగని విగ్రహపూజలు మొదలైనవాటియందు నడుచుకొనుచు, అన్యజనుల ఇష్టము నెరవేర్చుచుండుటకు గతించినకాలమే చాలును,",
+          "text_en": "For the time past of our life may suffice us to have wrought the will of the Gentiles, when we walked in lasciviousness, lusts, excess of wine, revellings, banquetings, and abominable idolatries:"
+        },
+        {
+          "verse_num": 4,
+          "text_te": "అపరిమితమైన ఆ దుర్వ్యాపారమునందు తమతోకూడ మీరు పరుగెత్తకపోయినందుకు వారు ఆశ్చర్యపడుచు మిమ్మును దూషించుచున్నారు.",
+          "text_en": "Wherein they think it strange that ye run not with them to the same excess of riot, speaking evil of you:"
+        },
+        {
+          "verse_num": 5,
+          "text_te": "సజీవుల కును మృతులకును తీర్పుతీర్చుటకు సిద్ధముగా ఉన్నవానికి వారుత్తరవాదులైయున్నారు.",
+          "text_en": "Who shall give account to him that is ready to judge the quick and the dead."
+        },
+        {
+          "verse_num": 6,
+          "text_te": "మృతులు శరీరవిషయములో మానవరీత్య తీర్పు పొందునట్లును ఆత్మవిషయములో దేవుని బట్టి జీవించునట్లును వారికికూడ సువార్త ప్రకటింపబడెను.",
+          "text_en": "For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit."
+        },
+        {
+          "verse_num": 7,
+          "text_te": "అయితే అన్నిటి అంతము సమీపమైయున్నది. కాగా మీరు స్వస్థ బుద్ధిగలవారై, ప్రార్థనలు చేయుటకు మెలకువగా ఉండుడి.",
+          "text_en": "But the end of all things is at hand: be ye therefore sober, and watch unto prayer."
+        },
+        {
+          "verse_num": 8,
+          "text_te": "ప్రేమ అనేక పాపములను కప్పును గనుక అన్నిటికంటె ముఖ్యముగా ఒకనియెడల ఒకడు మిక్కటమైన ప్రేమగలవారై యుండుడి.",
+          "text_en": "And above all things have fervent charity among yourselves: for charity shall cover the multitude of sins."
+        },
+        {
+          "verse_num": 9,
+          "text_te": "సణుగుకొనకుండ ఒకనికి ఒకడు ఆతిథ్యము చేయుడి.",
+          "text_en": "Use hospitality one to another without grudging."
+        },
+        {
+          "verse_num": 10,
+          "text_te": "దేవుని నానావిధమైన కృపవిషయమై మంచి గృహ నిర్వాహకులైయుండి, యొక్కొకడు కృపావరము పొందిన కొలది యొకనికొకడు ఉపచారము చేయుడి.",
+          "text_en": "As every man hath received the gift, even so minister the same one to another, as good stewards of the manifold grace of God."
+        },
+        {
+          "verse_num": 11,
+          "text_te": "ఒకడు బోధించినయెడల దైవోక్తులను బోధించునట్టు బోధింపవలెను; ఒకడు ఉపచారము చేసినయెడల దేవుడు అను గ్రహించు సామర్థ్యమునొంది చేయవలెను. ఇందువలన దేవుడు అన్నిటిలోను యేసుక్రీస్తు ద్వారా మహిమపరచ బడును. యుగయుగములు మహిమయు ప్రభావమును ఆయనకుండును గాక. ఆమేన్‌.",
+          "text_en": "If any man speak, let him speak as the oracles of God; if any man minister, let him do it as of the ability which God giveth: that God in all things may be glorified through Jesus Christ, to whom be praise and dominion for ever and ever. Amen."
+        },
+        {
+          "verse_num": 12,
+          "text_te": "ప్రియులారా, మిమ్మును శోధించుటకు మీకు కలుగు చున్న అగ్నివంటి మహాశ్రమనుగూర్చి మీకేదో యొక వింత సంభవించునట్లు ఆశ్చర్యపడకుడి.",
+          "text_en": "Beloved, think it not strange concerning the fiery trial which is to try you, as though some strange thing happened unto you:"
+        },
+        {
+          "verse_num": 13,
+          "text_te": "క్రీస్తు మహిమ బయలుపరచబడినప్పుడు మీరు మహానందముతో సంతో షించు నిమిత్తము, క్రీస్తు శ్రమలలో మీరు పాలివారై యున్నంతగా సంతోషించుడి.",
+          "text_en": "But rejoice, inasmuch as ye are partakers of Christ’s sufferings; that, when his glory shall be revealed, ye may be glad also with exceeding joy."
+        },
+        {
+          "verse_num": 14,
+          "text_te": "క్రీస్తు నామము నిమిత్తము మీరు నిందపాలైనయెడల మహిమాస్వరూపియైన ఆత్మ, అనగా దేవుని ఆత్మ, మీమీద నిలుచుచున్నాడు గనుక మీరు ధన్యులు.",
+          "text_en": "If ye be reproached for the name of Christ, happy are ye; for the spirit of glory and of God resteth upon you: on their part he is evil spoken of, but on your part he is glorified."
+        },
+        {
+          "verse_num": 15,
+          "text_te": "మీలో ఎవడును నరహంతకుడుగా గాని, దొంగగా గాని, దుర్మార్గుడుగా గాని, పరులజోలికి పోవువాడుగా గాని బాధ అనుభవింప తగదు.",
+          "text_en": "But let none of you suffer as a murderer, or as a thief, or as an evildoer, or as a busybody in other men’s matters."
+        },
+        {
+          "verse_num": 16,
+          "text_te": "ఎవడైనను క్రైస్తవుడైనందుకు బాధ అనుభవించినయెడల అతడు సిగ్గుపడక, ఆ పేరును బట్టియే దేవుని మహిమపరచవలెను.",
+          "text_en": "Yet if any man suffer as a Christian, let him not be ashamed; but let him glorify God on this behalf."
+        },
+        {
+          "verse_num": 17,
+          "text_te": "తీర్పు దేవుని ఇంటియొద్ద ఆరంభమగు కాలము వచ్చి యున్నది; అది మనయొద్దనే ఆరంభమైతే దేవుని సువార్తకు అవిధేయులైన వారి గతి యేమవును?",
+          "text_en": "For the time is come that judgment must begin at the house of God: and if it first begin at us, what shall the end be of them that obey not the gospel of God?"
+        },
+        {
+          "verse_num": 18,
+          "text_te": "మరియు నీతి మంతుడే రక్షింపబడుట దుర్లభమైతే భక్తిహీనుడును పాపియు ఎక్కడ నిలుతురు?",
+          "text_en": "And if the righteous scarcely be saved, where shall the ungodly and the sinner appear?"
+        },
+        {
+          "verse_num": 19,
+          "text_te": "కాబట్టి దేవుని చిత్తప్రకారము బాధపడువారు సత్‌ప్రవర్తన గలవారై, నమ్మకమైన సృష్టికర్తకు తమ ఆత్మలను అప్పగించుకొనవలెను.",
+          "text_en": "Wherefore let them that suffer according to the will of God commit the keeping of their souls to him in well doing, as unto a faithful Creator."
+        }
+      ]
+    },
+    {
+      "chapter_num": 5,
+      "total_verses": 14,
+      "verses": [
+        {
+          "verse_num": 1,
+          "text_te": "తోటిపెద్దను, క్రీస్తు శ్రమలనుగూర్చిన సాక్షిని, బయలుపరచబడబోవు మహిమలో పాలివాడనునైన నేను మీలోని పెద్దలను హెచ్చరించుచున్నాను.",
+          "text_en": "The elders which are among you I exhort, who am also an elder, and a witness of the sufferings of Christ, and also a partaker of the glory that shall be revealed:"
+        },
+        {
+          "verse_num": 2,
+          "text_te": "బలిమిచేత కాక దేవుని చిత్తప్రకారము ఇష్టపూర్వకముగాను, దుర్లాభా పేక్షతోకాక సిద్ధమనస్సుతోను, మీ మధ్యనున్న దేవుని మందను పైవిచారణచేయుచు దానిని కాయుడి.",
+          "text_en": "Feed the flock of God which is among you, taking the oversight thereof, not by constraint, but willingly; not for filthy lucre, but of a ready mind;"
+        },
+        {
+          "verse_num": 3,
+          "text_te": "మీకు అప్పగింపబడినవారిపైన ప్రభువునైనట్టుండక మందకు మాది రులుగా ఉండుడి;",
+          "text_en": "Neither as being lords over God’s heritage, but being ensamples to the flock."
+        },
+        {
+          "verse_num": 4,
+          "text_te": "ప్రధాన కాపరి ప్రత్యక్షమైనప్పుడు మీరు వాడబారని మహిమ కిరీటము పొందుదురు.",
+          "text_en": "And when the chief Shepherd shall appear, ye shall receive a crown of glory that fadeth not away."
+        },
+        {
+          "verse_num": 5,
+          "text_te": "చిన్నలారా, మీరు పెద్దలకు లోబడియుండుడి; మీరందరు ఎదుటివాని యెడల దీనమనస్సు అను వస్త్రము ధరించుకొని మిమ్మును అలంకరించుకొనుడి; దేవుడు అహంకారు లను ఎదిరించి దీనులకు కృప అనుగ్రహించును.",
+          "text_en": "Likewise, ye younger, submit yourselves unto the elder. Yea, all of you be subject one to another, and be clothed with humility: for God resisteth the proud, and giveth grace to the humble."
+        },
+        {
+          "verse_num": 6,
+          "text_te": "దేవుడు తగిన సమయమందు మిమ్మును హెచ్చించునట్లు ఆయన బలిష్ఠమైన చేతిక్రింద దీనమనస్కులై యుండుడి.",
+          "text_en": "Humble yourselves therefore under the mighty hand of God, that he may exalt you in due time:"
+        },
+        {
+          "verse_num": 7,
+          "text_te": "ఆయన మిమ్మునుగూర్చి చింతించుచున్నాడు గనుక మీ చింత యావత్తు ఆయనమీద వేయుడి.",
+          "text_en": "Casting all your care upon him; for he careth for you."
+        },
+        {
+          "verse_num": 8,
+          "text_te": "నిబ్బరమైన బుద్ధి గలవారై మెలకువగా ఉండుడి; మీ విరోధియైన అపవాది గర్జించు సింహమువలె ఎవరిని మింగుదునా అని వెదకుచు తిరుగుచున్నాడు.",
+          "text_en": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour:"
+        },
+        {
+          "verse_num": 9,
+          "text_te": "లోకమందున్న మీ సహో దరులయందు ఈ విధమైన శ్రమలే నెరవేరుచున్నవని యెరిగి,విశ్వాసమందు స్థిరులై వానిని ఎదిరించుడి.",
+          "text_en": "Whom resist stedfast in the faith, knowing that the same afflictions are accomplished in your brethren that are in the world."
+        },
+        {
+          "verse_num": 10,
+          "text_te": "తన నిత్యమహిమకు క్రీస్తునందు మిమ్మును పిలిచిన సర్వకృపా నిధియగు దేవుడు, కొంచెము కాలము మీరు శ్రమపడిన పిమ్మట,తానే మిమ్మును పూర్ణులనుగాచేసి స్థిరపరచి బల పరచును.",
+          "text_en": "But the God of all grace, who hath called us unto his eternal glory by Christ Jesus, after that ye have suffered a while, make you perfect, stablish, strengthen, settle you."
+        },
+        {
+          "verse_num": 11,
+          "text_te": "యుగయుగములకు ప్రభావమాయనకు కలు గునుగాక. ఆమేన్‌.",
+          "text_en": "To him be glory and dominion for ever and ever. Amen."
+        },
+        {
+          "verse_num": 12,
+          "text_te": "మిమ్మును హెచ్చరించుచు, ఇదియే దేవుని సత్యమైన కృప అని సాక్ష్యము చెప్పుచు సంక్షేపముగా వ్రాసి, మీకు నమ్మకమైన సహోదరుడని నేనెంచిన సిల్వానుచేత దీనిని పంపుచున్నాను. ఈ సత్యకృపలో నిలుకడగా ఉండుడి.",
+          "text_en": "By Silvanus, a faithful brother unto you, as I suppose, I have written briefly, exhorting, and testifying that this is the true grace of God wherein ye stand."
+        },
+        {
+          "verse_num": 13,
+          "text_te": "బబులోనులో మీవలె నేర్పరచబడిన ఆమెయు, నా కుమారుడైన మార్కును, మీకు వందనములు చెప్పుచున్నారు.",
+          "text_en": "The church that is at Babylon, elected together with you, saluteth you; and so doth Marcus my son."
+        },
+        {
+          "verse_num": 14,
+          "text_te": "ప్రేమగల ముద్దుతో ఒకనికి ఒకడు వందనములు చేయుడి.క్రీస్తునందున్న మీకందరికిని సమాధానము కలుగును గాక. ఆమేన్‌.",
+          "text_en": "Greet ye one another with a kiss of charity. Peace be with you all that are in Christ Jesus. Amen."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "H7225": {
+    "strongs_tag": "H7225",
+    "original_word": "רֵאשִׁית",
+    "transliteration": "reshith",
+    "part_of_speech": "Noun Feminine",
+    "phonetic_spelling": "ray-sheeth'",
+    "definition": "First, chief, beginning time, primary source or firstfruits.",
+    "origin": "From the same as H7218 (ראש - rosh: head, chief)",
+    "usage": "Occurs 50 times in the Old Testament. Used to denote the absolute beginning of time, chief part, and consecrated firstfruits unto Yahweh.",
+    "translation_counts": [
+      {
+        "word": "beginning",
+        "count": 18
+      },
+      {
+        "word": "firstfruits",
+        "count": 11
+      },
+      {
+        "word": "chief",
+        "count": 9
+      },
+      {
+        "word": "first",
+        "count": 8
+      },
+      {
+        "word": "principal part",
+        "count": 4
+      }
+    ]
+  },
+  "H1254": {
+    "strongs_tag": "H1254",
+    "original_word": "בָּרָא",
+    "transliteration": "bara",
+    "part_of_speech": "Verb (Qal)",
+    "phonetic_spelling": "baw-raw'",
+    "definition": "To create, shape, or form out of nothing (ex nihilo). An action uniquely attributed to Divine power.",
+    "origin": "A primitive root term meaning to create out of non-existence",
+    "usage": "Occurs 54 times in the OT. Exclusively reserved for God's sovereign creation of the universe, heavens, earth, and mankind.",
+    "translation_counts": [
+      {
+        "word": "create",
+        "count": 42
+      },
+      {
+        "word": "creator",
+        "count": 6
+      },
+      {
+        "word": "make",
+        "count": 4
+      },
+      {
+        "word": "form",
+        "count": 2
+      }
+    ]
+  },
+  "H430": {
+    "strongs_tag": "H430",
+    "original_word": "אֱלֹהִים",
+    "transliteration": "Elohim",
+    "part_of_speech": "Noun Masculine Plural",
+    "phonetic_spelling": "el-o-heem'",
+    "definition": "God, the Supreme Divine Being, Creator and Ruler of the universe. Plural of majesty.",
+    "origin": "Plural of H433 (אֱלוֹהַּ - Eloah); derived from H410 (El: mighty one)",
+    "usage": "Occurs 2,602 times in the Old Testament. Highlights God's omnipotence, majesty, and supreme governance over creation.",
+    "translation_counts": [
+      {
+        "word": "God",
+        "count": 2346
+      },
+      {
+        "word": "gods",
+        "count": 216
+      },
+      {
+        "word": "judge / rulers",
+        "count": 40
+      }
+    ]
+  },
+  "H853": {
+    "strongs_tag": "H853",
+    "original_word": "אֵת",
+    "transliteration": "et",
+    "part_of_speech": "Untranslatable Particle",
+    "phonetic_spelling": "ayth",
+    "definition": "Direct object pointer in Hebrew grammar; also signifies completeness (from Aleph to Tav).",
+    "origin": "Appears as a grammatical marker introducing definite direct objects",
+    "usage": "Occurs over 7,000 times in the Hebrew Scriptures. Points to the direct focus of divine action.",
+    "translation_counts": [
+      {
+        "word": "[direct object mark]",
+        "count": 7000
+      }
+    ]
+  },
+  "H8064": {
+    "strongs_tag": "H8064",
+    "original_word": "הַשָּׁמַיִם",
+    "transliteration": "hashamayim",
+    "part_of_speech": "Noun Dual / Plural",
+    "phonetic_spelling": "hash-aw-mah'-yim",
+    "definition": "The heavens, sky, visible atmosphere, and celestial abode of God.",
+    "origin": "From a dual of an unused root meaning to be lofty or high",
+    "usage": "Occurs 420 times in the OT. Denotes the visible cosmos as well as the dwelling place of the Most High.",
+    "translation_counts": [
+      {
+        "word": "heaven",
+        "count": 398
+      },
+      {
+        "word": "heavens",
+        "count": 20
+      },
+      {
+        "word": "sky",
+        "count": 2
+      }
+    ]
+  },
+  "H776": {
+    "strongs_tag": "H776",
+    "original_word": "הָאָרֶץ",
+    "transliteration": "ha'aretz",
+    "part_of_speech": "Noun Feminine",
+    "phonetic_spelling": "haw-aw'-rets",
+    "definition": "The earth, land, ground, physical country, or world.",
+    "origin": "From an unused root probably meaning to be firm",
+    "usage": "Occurs 2,504 times in the OT. References the created physical globe, the promised land of Canaan, and all human territory.",
+    "translation_counts": [
+      {
+        "word": "land",
+        "count": 1540
+      },
+      {
+        "word": "earth",
+        "count": 712
+      },
+      {
+        "word": "country",
+        "count": 140
+      },
+      {
+        "word": "ground",
+        "count": 98
+      }
+    ]
+  },
+  "H3068": {
+    "strongs_tag": "H3068",
+    "original_word": "יְהוָה",
+    "transliteration": "Yahweh / YHWH",
+    "part_of_speech": "Proper Noun",
+    "phonetic_spelling": "yeh-ho-vaw'",
+    "definition": "The Covenant Name of God: 'I AM WHO I AM'. The Eternal, Self-Existent, Uncreated LORD.",
+    "origin": "From H1961 (הָיָה - hayah: to exist, be)",
+    "usage": "Occurs 6,519 times in the OT. The sacred Tetragrammaton representing God's unchangeable faithfulness to His covenant people.",
+    "translation_counts": [
+      {
+        "word": "LORD",
+        "count": 6510
+      },
+      {
+        "word": "GOD",
+        "count": 9
+      }
+    ]
+  },
+  "H7462": {
+    "strongs_tag": "H7462",
+    "original_word": "רֹעִי",
+    "transliteration": "ro'i",
+    "part_of_speech": "Verb Participle",
+    "phonetic_spelling": "ro-ee'",
+    "definition": "To tend, pasture, shepherd, feed, and guide a flock with personal affection.",
+    "origin": "From H7462 (רָעָה - ra'ah: to pasture, associate with)",
+    "usage": "Occurs 173 times in the OT. Used of Yahweh as the loving Shepherd of Israel in Psalm 23:1.",
+    "translation_counts": [
+      {
+        "word": "shepherd",
+        "count": 63
+      },
+      {
+        "word": "feed",
+        "count": 52
+      },
+      {
+        "word": "pastor",
+        "count": 8
+      },
+      {
+        "word": "keep sheep",
+        "count": 6
+      }
+    ]
+  },
+  "G3056": {
+    "strongs_tag": "G3056",
+    "original_word": "Λόγος",
+    "transliteration": "logos",
+    "part_of_speech": "Noun Masculine",
+    "phonetic_spelling": "log'-os",
+    "definition": "Divine Expression, Word, Mind, Reason, or Revelation. Personified as Jesus Christ, the Living Word of God.",
+    "origin": "From G3004 (λέγω - lego: to speak systematically)",
+    "usage": "Occurs 330 times in the NT. Used by John to declare Jesus as the pre-existent, uncreated Word made flesh (John 1:1, 1:14).",
+    "translation_counts": [
+      {
+        "word": "word",
+        "count": 218
+      },
+      {
+        "word": "saying",
+        "count": 50
+      },
+      {
+        "word": "account",
+        "count": 8
+      },
+      {
+        "word": "speech",
+        "count": 8
+      },
+      {
+        "word": "doctrine",
+        "count": 4
+      }
+    ]
+  },
+  "G746": {
+    "strongs_tag": "G746",
+    "original_word": "ἀρχῇ",
+    "transliteration": "arche",
+    "part_of_speech": "Noun Feminine",
+    "phonetic_spelling": "ar-khay'",
+    "definition": "Beginning, origin, primary source, chief rule, or first principle.",
+    "origin": "From G757 (ἄρχω - archo: to be first in time or order)",
+    "usage": "Occurs 58 times in the NT. Denotes primordial origin before time began (John 1:1) and Christ as the Ruler of Creation.",
+    "translation_counts": [
+      {
+        "word": "beginning",
+        "count": 40
+      },
+      {
+        "word": "principality",
+        "count": 8
+      },
+      {
+        "word": "corner",
+        "count": 2
+      },
+      {
+        "word": "first estate",
+        "count": 2
+      }
+    ]
+  },
+  "G2316": {
+    "strongs_tag": "G2316",
+    "original_word": "Θεός",
+    "transliteration": "theos",
+    "part_of_speech": "Noun Masculine",
+    "phonetic_spelling": "the'-os",
+    "definition": "God, the One Supreme Deity, Creator of heaven and earth.",
+    "origin": "Of uncertain affinity; denotes the Divine Supreme Sovereign",
+    "usage": "Occurs 1,317 times in the NT. Denotes God the Father, Son, and Holy Spirit in divine unity.",
+    "translation_counts": [
+      {
+        "word": "God",
+        "count": 1300
+      },
+      {
+        "word": "godly",
+        "count": 10
+      },
+      {
+        "word": "gods",
+        "count": 7
+      }
+    ]
+  },
+  "G25": {
+    "strongs_tag": "G25",
+    "original_word": "ἠγάπησεν / ἀγαπάω",
+    "transliteration": "egapesen / agapao",
+    "part_of_speech": "Verb (Aorist Active)",
+    "phonetic_spelling": "ag-ap-ah'-o",
+    "definition": "Selfless, unconditional, sacrificial divine love (Agape). Loving without expectation of return.",
+    "origin": "Perhaps from agan (much); divine affection",
+    "usage": "Occurs 143 times in the NT. Describes God's unconditional love in giving His Son for humanity (John 3:16).",
+    "translation_counts": [
+      {
+        "word": "love",
+        "count": 135
+      },
+      {
+        "word": "beloved",
+        "count": 7
+      },
+      {
+        "word": "dear",
+        "count": 1
+      }
+    ]
+  },
+  "G2889": {
+    "strongs_tag": "G2889",
+    "original_word": "κόσμον",
+    "transliteration": "kosmon / kosmos",
+    "part_of_speech": "Noun Masculine",
+    "phonetic_spelling": "kos'-mos",
+    "definition": "The world, human society, creation, or order. The realm of humanity loved by God.",
+    "origin": "From G2865 (κομίζω - komizo: to take care of or adorn)",
+    "usage": "Occurs 186 times in the NT. Refers to the inhabited earth and lost humanity for whom Christ died.",
+    "translation_counts": [
+      {
+        "word": "world",
+        "count": 184
+      },
+      {
+        "word": "adorning",
+        "count": 2
+      }
+    ]
+  },
+  "G5485": {
+    "strongs_tag": "G5485",
+    "original_word": "χάρις",
+    "transliteration": "charis",
+    "part_of_speech": "Noun Feminine",
+    "phonetic_spelling": "khar'-ece",
+    "definition": "Grace, unmerited divine favor, spiritual blessing, dynamic power bestowed freely by God.",
+    "origin": "From G5463 (χαίρω - chairo: to rejoice, be glad)",
+    "usage": "Occurs 156 times in the NT. The foundational gospel truth of salvation by grace through faith (Ephesians 2:8, Rev 22:21).",
+    "translation_counts": [
+      {
+        "word": "grace",
+        "count": 130
+      },
+      {
+        "word": "favor",
+        "count": 6
+      },
+      {
+        "word": "thanks",
+        "count": 12
+      },
+      {
+        "word": "gift",
+        "count": 4
+      }
+    ]
+  },
+  "G2962": {
+    "strongs_tag": "G2962",
+    "original_word": "Κύριος",
+    "transliteration": "kurios",
+    "part_of_speech": "Noun Masculine",
+    "phonetic_spelling": "koo'-ree-os",
+    "definition": "Lord, Master, Owner, Sovereign Ruler. The NT equivalent of YHWH.",
+    "origin": "From kuros (supremacy / authority)",
+    "usage": "Occurs 717 times in the NT. Used to confess Jesus as Supreme Lord over heaven and earth.",
+    "translation_counts": [
+      {
+        "word": "Lord",
+        "count": 660
+      },
+      {
+        "word": "master",
+        "count": 35
+      },
+      {
+        "word": "sir",
+        "count": 12
+      },
+      {
+        "word": "owner",
+        "count": 10
+      }
+    ]
+  },
+  "G281": {
+    "strongs_tag": "G281",
+    "original_word": "ἀμήν",
+    "transliteration": "amen",
+    "part_of_speech": "Hebrew Particle in Greek",
+    "phonetic_spelling": "ah-mene'",
+    "definition": "Truly, verily, so be it, firm, trustworthy affirmation.",
+    "origin": "Of Hebrew origin H543 (אָמֵן - amen: truth, certainty)",
+    "usage": "Occurs 129 times in the NT. Used to seal prayers, confirm divine truth, and express unshakeable faith.",
+    "translation_counts": [
+      {
+        "word": "verily",
+        "count": 100
+      },
+      {
+        "word": "amen",
+        "count": 29
+      }
+    ]
+  }
+}

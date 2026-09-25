@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "yfc-fellowship-landing",
+  "cleanUrls": true,
+  "public": true,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/web/$1"
+    }
+  ]
+}

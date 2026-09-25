@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701658444407",
+    "project_id": "yfc-fellowship",
+    "storage_bucket": "yfc-fellowship.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701658444407:android:fbabb3bf3501a4f8164c72",
+        "android_client_info": {
+          "package_name": "com.yfc.fellowship"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_QF4xdZpYVO8ilZlHmoTwhCpi25JEFZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
